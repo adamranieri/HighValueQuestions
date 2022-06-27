@@ -1,0 +1,145 @@
+
+## Java
+- Tell me about Java?
+- What do you like about Java?
+- Why might someone not like Java?
+- **Scopes**
+  - Tell me the scopes in Java.
+  - What is a scope?
+  - How do I make a variable of x scope?
+- **Access Modifiers**
+  - What are Access Modifiers?
+  - What are the Access Modifiers in Java?
+  - How are access modifiers different from scope?
+  - What does the access modifier x do?
+- **Keywords**
+  - Tell me Keywords in Java?
+  - What does final keyword do?
+    - On variable
+    - On a method
+    - On a class
+  - What does static do?
+- **Class Structure**
+  - How do I inherit a class?
+  - How do I make a constructor?
+  - How Do I implement an interface
+  - Override a method
+  - What is an abstract class?
+  - Abstract Class vs Interface?
+  - Variables in an abstract class or interface
+  - what is toString()?
+  - what is equals()?
+  - == vs equals()
+- **Exception Handling**
+  - How does try catch finally work?
+  - throws and throw keywords
+  - Checked vs unchecked exceptions?
+    - Give me an example of each
+  - Exception vs Error?
+- **JVM Architecture**
+  - What is the main method?
+  - What is the method signature of the main method?
+  - Where does every Java Application start?
+  - Heap vs Stack memory?
+  - What is the JRE and JVM?
+- **Java 8 features**
+  - What features were added in Java 8?
+  - What is a functional interface?
+  - What is a lambda?
+  - Where have you used lambdas?
+    - What is the Streams API
+- **Threads**
+  - What is a thread?
+  - Why would you multi-thread?
+  - Have you used threading?
+  - How would you make a thread?
+
+
+## Collections
+- What is the collcetions Framework?
+- What is a List?
+- What are some implementations of a list?
+  - ArrayList vs LinkedList
+- What is a Set?
+- What is a queue?
+  - what is a Deque?
+- What is a Map?
+- Difference between a List and a Set?
+- Is an array a collection?
+- How is an array different from a list?
+- Is a Map a collection?
+- What is the root class of collection hierarchy?
+- Collection interface vs Collections class
+- What factors do you consider when choosing a collection?
+
+## OOP
+- What is OOP?
+- ***What are the Pillars of OOP?***
+- What is your favorite Pillar?
+- **Abstraction**
+  - What is abstraction?
+  - Examples of Abstraction in Java.
+  - How do interfaces promote abstractions?
+- **Polymorphism**
+  - What is polymorphism
+  - Types of Polymorphism
+    - Runtime/Dynamic vs Compiled/Static polymorphism
+  - Overloading vs Overriding
+  - How do I overload a method?
+  - How do I override a method?
+- **Inheritance**
+  - What is inheritance?
+  - Why would I use inheritance?
+  - How do I inherit from a class?
+  - Does Java support multiple inheritence?
+  - How do I use an interface?
+  - What is a Marker Interface?
+- **Encapsulation**
+  - What is encapsulation?
+  - What are some benefits of encapsulation?
+  - How do I encapsulate a variable in Java?
+  - What are the access modifiers?
+  - What does X access modifier do?
+- **Design Patterns**
+  - What is a singleton
+  - How do I make a singleton
+  - When would I use a singleton
+  - What is a factory
+  - Example of a factory
+
+## SQL
+- How do I create a table?
+- How do I apply a constraint?
+- How do I set up a foreign key?
+- What is a primary key?
+- How do I insert a record?
+- What joins do you know? 
+- What aggregate and Scalar functions have you used?
+
+## SQL Queries
+Associates should be able to perform a variety of SQL queries. This appears to be the most popular way of assessing SQL abilities. Rather than trying to come up with specific questions they should do these to get practical experience. There is a high chance you will be asked to write a SQL query. The chinook database is a practice database. Run the script here in your DB to get it.
+https://raw.githubusercontent.com/lerocha/chinook-database/master/ChinookDatabase/DataSources/Chinook_PostgreSql.sql
+- Querying practice
+    - Select all records from the Employee table.
+    - Select all records from the Employee table where last name is King.
+    - Select all records from the Employee table where first name is Andrew and REPORTSTO is NULL.
+    -  Select all albums in Album table and sort result set in descending order by title.
+    - Select first name from Customer and sort result set in ascending order by city
+    - Select all invoices with a billing address like “T%”
+    - Select all invoices that have a total between 15 and 50
+    - Select all employees hired between 1st of June 2003 and 1st of March 2004
+- Insert practice
+    - Insert two new records into Genre table
+    - Insert two new records into Employee table
+    - Insert two new records into Customer table
+- Update Practice
+    - Update Aaron Mitchell in Customer table to Robert Walter
+    - Update name of artist in the Artist table “Creedence Clearwater Revival” to “CCR”
+- Joins
+    - Create an inner join that joins customers and orders and specifies the name of the customer and the invoiceId
+    - Create an outer join that joins the customer and invoice table, specifying the CustomerId, firstname, lastname, invoiceId, and total.
+    - Create a right join that joins album and artist specifying artist name and title.
+    - Create a cross join that joins album and artist and sorts by artist name in ascending order.
+    - Perform a self-join on the employee table, joining on the reportsto column.
+- Set Operators
+    - Use a unionall to create a table that has the name of all employees and customers
